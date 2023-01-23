@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Names Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="tableDiv">
+            <h2>Sort Data by Aplpabet:</h2>
+            <table id="buttons">
+                <tr> <button onclick="SortByFirstNameDescending()">Names A-Z</button><button onclick="SortByLastNameDescending()">Surnames A-Z</button><br>
+                    <button onclick="SortByFirstNameAscending()">Names Z-A</button><button onclick="SortByLastNameAscending()">Surnames Z-A</button>
+                </tr>
+            </table>
+            <table id="target-table">
+            </table>
+        </div>
+        <div id="formDiv">
+            <form id="editing-form" name="editing-form">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

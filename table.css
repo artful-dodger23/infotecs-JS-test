@@ -1,0 +1,66 @@
+body {
+    background-color: whitesmoke;
+}
+table 
+{
+    width:100%;
+    background-color: #A9D597;
+    text-align: center;
+    border: 3px solid;
+    border-color: #0F3206;
+    border-collapse: collapse;
+}
+tr {
+    border: 1px solid;
+    border-color: #0F3206;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.col4 {   
+    display: -webkit-box;   
+    -webkit-line-clamp: 2;   
+    -webkit-box-orient: vertical;     
+    overflow: hidden;
+ }
+.id-row {
+    display: none;
+}
+.col4 {
+    text-align: left;
+    border-spacing: none;
+}
+#editing-form {
+ margin-left: 3em;
+ width: 40%; 
+}
+
+#formDiv {
+    width: 50%;
+}
+
+#tableDiv {
+    width: 50%;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+textarea {
+    height: 6em;
+    width: 100%;
+}
+
+#firstName, #lastName, #eyeColor {
+    width: 100%;
+}
+
+.highlighted
+{
+    background-color: #F1FFEB;
+}
+.firstRow {
+    font-weight: bold;
+    background-color: #A9D597;
+}
